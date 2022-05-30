@@ -1,4 +1,4 @@
-# travel-journal
+# Travel Journal
 - Created this site for storing all the experiences on has from exploring the world
 - Used React JS props to display the data 
 - Created my own data on a JS file, that contains all the content displayed in the site
