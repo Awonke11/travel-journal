@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app,
+.main {
+  width: 100%;
+}
+
+.header {
+  height: 6em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+  background: #2E5266;
+  color: white;
+}
+
+.header > i {
+  font-size: 2rem;
+}
+
+.main {
+  margin: 4em 12em;
+  margin-top: 2em;
+  display: flex;
+}
+
+.img-main {
+  flex: 1;
+  width: 4rem;
+  margin-right: 2em;
+  border-radius: 10px;
+}
+
+.container {
+  flex: 3;
+  display: grid;
+  align-content: center;
+}
+
+.place-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: .2em;
+}
+
+.place-info > i {
+  color: #2E5266;
+  margin-right: .4em;
+  font-size: 1.1em;
+}
+
+.country {
+  margin-right: .7em;
+  letter-spacing: 0.17em;
+  font-size: 1.1rem;
+}
+
+.location-name {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: .5em;
+}
+
+.duration {
+  font-weight: 700;
+  margin-bottom: .3em;
+}
+
+.description {
+  max-width: 600px;
+}
+
+.quotes {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 1.8rem;
+  max-width: 900px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: .5em;
+}
+
+.author {
+  font-size: 1.5rem;
+  text-align: center;
+}
