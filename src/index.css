@@ -45,7 +45,8 @@ code {
 
 .img-main {
   flex: 1;
-  width: 4rem;
+  width: 1rem;
+  height: 15rem;
   margin-right: 2em;
   border-radius: 10px;
 }
